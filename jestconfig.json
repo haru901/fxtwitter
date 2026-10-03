@@ -1,0 +1,25 @@
+{
+  "testEnvironment": "miniflare",
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "globals": {
+    "BRANDING_NAME": "FxTwitter / FixupX",
+    "TEXT_ONLY_DOMAINS": "t.fxtwitter.com,t.twittpr.com,t.fixupx.com",
+    "INSTANT_VIEW_DOMAINS": "i.fxtwitter.com,i.twittpr.com,i.fixupx.com",
+    "GALLERY_DOMAINS": "g.fxtwitter.com,g.twittpr.com,g.fixupx.com",
+    "FORCE_MOSAIC_DOMAINS": "m.fxtwitter.com,m.twittpr.com,m.fixupx.com",
+    "STANDARD_DOMAIN_LIST": "fxtwitter.com,fixupx.com,twittpr.com",
+    "DIRECT_MEDIA_DOMAINS": "d.fxtwitter.com,dl.fxtwitter.com,d.fixupx.com,dl.fixupx.com",
+    "MOSAIC_DOMAIN_LIST": "mosaic.fxtwitter.com",
+    "API_HOST_LIST": "api.fxtwitter.com",
+    "HOST_URL": "https://fxtwitter.com",
+    "REDIRECT_URL": "https://github.com/FixTweet/FxTwitter",
+    "EMBED_URL": "https://github.com/FixTweet/FxTwitter",
+    "RELEASE_NAME": "fixtweet-test",
+    "SENTRY_DSN": null,
+    "GUEST_BEARER_TOKEN": null
+  },
+  "testRegex": "/test/.*\\.test\\.ts$",
+  "collectCoverageFrom": ["src/**/*.{ts,js}"]
+}
